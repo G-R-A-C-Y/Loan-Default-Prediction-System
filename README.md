@@ -72,10 +72,17 @@ The model was trained to classify loan applicants into **Default** and **Non-Def
 
 **Evaluation Metrics**
 
-- Accuracy: *(Add your value)*
-- Precision: *(Add your value)*
-- Recall: *(Add your value)*
-- F1 Score: *(Add your value)*
+## 📊 Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|-------|---------:|----------:|--------:|---------:|---------:|
+| Logistic Regression | 88.17% | 71.79% | 3.58% | 6.82% | **74.65%** |
+| Decision Tree | 79.67% | 19.26% | **21.36%** | **20.25%** | 54.52% |
+| Random Forest | 88.04% | **72.22%** | 1.66% | 3.25% | 71.73% |
+
+**Selected Model:** Logistic Regression
+
+Logistic Regression was selected as the final model because it achieved the best overall ROC-AUC score while maintaining competitive accuracy among the evaluated models.
 
 ---
 
@@ -94,11 +101,8 @@ The model was trained to classify loan applicants into **Default** and **Non-Def
 
 > **Dashboard Preview**
 
-*(Add a screenshot here after uploading it to the `images` folder.)*
-
-```markdown
 ![Dashboard](images/dashboard.png)
-```
+
 
 ---
 
